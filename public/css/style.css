@@ -1,0 +1,80 @@
+html,
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-signin {
+    width: 100%;
+    margin: auto;
+}
+.form-signin .checkbox {
+    font-weight: 400;
+}
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.text-header {
+    font-size: 300%;
+}
+
+.card-profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    margin-right: 1rem;
+}
+
+.profile-big {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #fff;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.mading-item {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.mading-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #fff;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+}
+
+.mading-item h6 {
+    align-self: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: calc(100% - 180px);
+    margin-bottom: 0;
+}
+
+.mading-item .btn {
+    margin-left: 8px;
+    width: 60px;
+    display: inline-block;
+}
